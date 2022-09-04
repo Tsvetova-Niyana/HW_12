@@ -1,5 +1,5 @@
-from flask import Flask, request, render_template, send_from_directory
-# from functions import ...
+# Импортирт библиотек
+from flask import Flask, send_from_directory
 from loader.loader_view import load_blueprint
 from main.main_view import main_blueprint
 
@@ -8,6 +8,7 @@ UPLOAD_FOLDER = "uploads/images"
 
 app = Flask(__name__)
 
+# Регистрация блюипринтов
 app.register_blueprint(main_blueprint)
 app.register_blueprint(load_blueprint)
 
@@ -18,4 +19,3 @@ def static_dir(path):
 
 
 app.run()
-

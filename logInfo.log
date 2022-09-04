@@ -52,3 +52,20 @@ INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:19:30] "[36mGET /static/style.css H
 INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:19:30] "[36mGET /uploads/images/diagramm.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:19:43] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:19:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:39:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:39:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск по слову 'кот'
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:39:48] "GET /search/?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:39:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:39:52] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:39:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:39:55] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:39:59] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:40:21] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:40:21] "[33mGET /loader/static/style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:40:21] "GET /uploads/images/diagramm.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:40:24] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:40:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:40:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Sep/2022 18:40:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
